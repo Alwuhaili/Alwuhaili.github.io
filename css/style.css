@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  background-color: #f4f4f4;
+}
+.container {
+  max-width: 1200px;
+  height: 150vh;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.container .left-column {
+  float: left;
+  width: 30%;
+  min-height: 100%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd; 
+}
+.container .right-column {
+  float: right;
+  width: 70%;
+  padding: 20px;
+}
+
+.profile {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.profile .profile-header {
+  padding: 10px;
+}
+.profile .profile-img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+.profile-info {
+  flex: 1;
+}
+.profile-info h1 {
+  font-size: 24px;
+  color: #333;
+}
+.profile-info p {
+  color: #777;
+  margin: 5px 0;
+}
+.container .skills {
+  margin-top: 20px;
+}
+.container .skills ul {
+  list-style-type: none;
+}
+.container .skills li {
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+.container .skills h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+.container .skills .skill {
+  margin-bottom: 10px;
+}
+.container .skills .skill .skill-name {
+  font-weight: bold;
+  color: #555;
+}
+.container .skills .skill .skill-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.container .skills .skill .skill-bar .skill-level {
+  background-color: #4CAF50;
+  height: 20px;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+.container .skills .skill .skill-bar .skill-level.html {
+  width: 90%;
+}
+.container .skills .skill .skill-bar .skill-level.css {
+  width: 85%;
+}
+.container .skills .skill .skill-bar .skill-level.javascript {
+  width: 80%;
+}
+.container .skills .skill .skill-bar .skill-level.cpp {
+  width: 95%;
+}
+.container .skills .skill .skill-bar .skill-level.python {
+  width: 75%;
+}
+.container .skills .skill .skill-bar .skill-level.java {
+  width: 70%;
+}
+.container .right-column .experience {
+  margin-top: 20px;
+}
+.container .right-column .experience h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+.container .right-column .experience .job {
+  margin-bottom: 20px;
+}
+.container .right-column .experience .job h3 {
+  color: #555;
+  margin-bottom: 5px;
+}
+.container .right-column .experience .job p {
+  color: #777;
+}
+.container .right-column ul {
+  list-style-type: none;
+}
+.container .right-column ul li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+}
+.footer p {
+  margin: 5px 0;
+}
+.footer i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+}
